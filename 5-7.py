@@ -22,14 +22,17 @@ fruits = [
     "Kiwi"
 ]
 
-for f in fruits:
-    if f == "apple":
-        print("You really like apples!")
-    elif f == "banana":
-        print("You really like bananas!")
-    elif f == "orange":
-        print("You really like oranges!")
-    elif f == "strawberry":
-        print("You really like strawberries!")
-    elif f == "dragonfruit":
-        print("You really don't like dragonfruit!")
+if "Apple" in fruits:
+    print("You really like apples!")
+
+if "Banana" in fruits:
+    print("You really like bananas!")
+
+if "Orange" in fruits:
+    print("You really like oranges!")
+
+if "Strawberry" in fruits:
+    print("You really like strawberries!")
+
+if "Dragonfruit" in fruits:
+    print("You really like dragonfruit!")
